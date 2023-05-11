@@ -171,6 +171,7 @@ body {
   background-color: #3172b9;
   color: #fff;
   border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .btn::after {
@@ -184,6 +185,7 @@ body {
   border: 1px solid #3172b9;
   outline: none;
   opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .btn:focus::after {
