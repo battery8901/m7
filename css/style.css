@@ -47,9 +47,6 @@ img {
   font-display: swap;
 }
 
-
-
-
 body{
   min-width: 1200px;
   font-family:"OpenSans", sans-serif;
@@ -285,12 +282,22 @@ margin-right: 52px;
   border-radius: 5px;
 }
 
+.services-item:hover {
+  border-color: #3172b9;
+  background-color: #3172b9;
+}
+
 .services-item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
 
 .services-item-icon {
+  fill: #3172b9;
   margin-bottom: 25px;
+}
+
+ .services-item:hover  .services-item-icon {
+fill:#fff;
 }
 
 .services-item-title {
@@ -300,7 +307,10 @@ margin-right: 52px;
   font-size: 20px;
   line-height: 130%;
   color: #1c1c1c;
+}
 
+.services-item:hover .services-item-title {
+  color: #fff;
 }
 
 .services-item-descr {
@@ -309,6 +319,9 @@ margin-right: 52px;
   font-size: 14px;
   line-height: 150%;
   color: #787878;
+}
+.services-item:hover  .services-item-descr{
+color: #fff;
 }
 
 /*articles*/
