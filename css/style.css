@@ -388,9 +388,64 @@ color: #fff;
   max-width: 210px;
 }
 
+.blog-preview-link{
+  display: flex;
+  position: relative;
+  width:100%;
+}
+
+.blog-preview-link:focus {
+  background-color:  #71a7e2;
+}
+
+.blog-preview-link:focus  .blog-preview-title {
+  color: #fff;
+}
+
+.blog-preview-link:focus  .blog-preview-descr {
+  color: #fff;
+}
+
+.blog-preview-link:focus  .blog-preview-time {
+  color: #fff;
+}
+
+
+.blog-preview-link:hover {
+  background-color:#3172B9;
+}
+
+.blog-preview-link:hover  .blog-preview-title {
+  color: #fff;
+}
+
+.blog-preview-link:hover  .blog-preview-descr {
+  color: #fff;
+}
+
+.blog-preview-link:hover  .blog-preview-time {
+  color: #fff;
+}
+
+.blog-preview-link:active {
+  background-color:#0E3B6C;
+}
+
+.blog-preview-link:active  .blog-preview-title {
+  color: #fff;
+}
+
+.blog-preview-link:active  .blog-preview-descr {
+  color: #fff;
+}
+
+.blog-preview-link:active  .blog-preview-time {
+  color: #fff;
+}
+
 /*clients*/
 .clients {
-  border-bottom: 1px solid #dadada;
+  border-bottom: 1px solid #c4c4c4;
 }
 
 .clients-item {
