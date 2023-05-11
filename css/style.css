@@ -112,6 +112,7 @@ body {
   font-weight: 600;
   color: #1c1c1c;
   font-size: 15px;
+  transition:color 0.3s ease-in-out ;
 }
 
 .header-link:focus {
@@ -132,6 +133,7 @@ body {
   height: 2px;
   background-color: #3474ba;
   opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .header-link:active {
