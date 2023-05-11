@@ -561,6 +561,20 @@ color: #fff;
   color:#787878
 }
 
+.contacts-item-link:focus {
+  outline: 1px solid #71A7E2;
+}
+
+.contacts-item-link:hover {
+  color: #71a7e2;
+}
+
+.contacts-item-link:active {
+  outline: none;
+  color: #0e3b6c;
+
+}
+
 /*join us*/
 .join-us {
   border-bottom: 1px solid #C4C4C4;
