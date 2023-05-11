@@ -357,6 +357,7 @@ body {
 
 .blog-preview {
   overflow: hidden;
+  border-radius: 5px;
   border: 1px solid #e4e4e4;
 
 
@@ -376,6 +377,7 @@ body {
   font-size: 10px;
   line-height: 150%;
   color: #787878;
+  transition: color 0.3s ease-in-out;
 
 }
 
@@ -385,6 +387,7 @@ body {
   font-size: 20px;
   line-height: 130%;
   color: #1c1c1c;
+  transition: color 0.3s ease-in-out;
 }
 
 
@@ -398,12 +401,14 @@ body {
   line-height: 150%;
   color: #787878;
   max-width: 210px;
+  transition: color 0.3s ease-out;
 }
 
 .blog-preview-link {
   display: flex;
   position: relative;
   width: 100%;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .blog-preview-link:focus {
