@@ -575,7 +575,8 @@ body {
   display: inline-block;
   font-size: 14px;
   line-height: 180%;
-  color: #787878
+  color: #787878;
+  transition: color 0.3s ease-in-out;
 }
 
 .contacts-item-link:focus {
@@ -619,6 +620,8 @@ body {
   padding: 16px 28px;
   width: 251px;
   height: 60px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s
+  ease-in-out;
 }
 
 .form-input:focus {
@@ -643,6 +646,7 @@ body {
   padding: 16px 28px;
   width: 251px;
   height: 60px;
+  transition:background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .form-select:focus {
@@ -667,6 +671,7 @@ body {
   padding: 16px 28px;
   width: 100%;
   height: 100%;
+  transition:background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
 .form-textarea:focus {
