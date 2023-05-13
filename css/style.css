@@ -821,11 +821,13 @@ footer {
 
 .social-link svg {
   fill: #000;
+  transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
 }
 
 .social-link-mail svg {
   fill: transparent;
   stroke: #000;
+  transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
 }
 
 .social-link:focus {
