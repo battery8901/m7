@@ -749,13 +749,44 @@ footer {
   font-size: 12px;
   line-height: 16px;
   color: #787878;
+
 }
 
 .footer-link {
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
+  transition: 0.3s ease-in-out;
+}
 
+.footer-link:focus {
+  outline-offset: 2px;
+  outline: 1px solid #71a7e2;
+}
+
+.footer-link:hover {
+  color: #71a7e2;
+}
+
+.footer-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #3474ba;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.footer-link:active {
+  color: #3172d9;
+  outline: none;
+}
+
+.footer-link:active::after {
+  opacity: 1;
 }
 
 .footer-container {
