@@ -624,6 +624,10 @@ body {
   ease-in-out;
 }
 
+.form-input:nth-child(-n+2) {
+  margin-bottom: 19px;
+}
+
 .form-input:focus {
   outline: none;
   border-color: #71A7E2;
