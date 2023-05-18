@@ -859,3 +859,7 @@ footer {
   fill: transparent;
   stroke: #3172b9;
 }
+
+.burger{
+  display: none;
+}
