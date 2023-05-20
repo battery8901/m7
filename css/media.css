@@ -42,7 +42,34 @@
   .burger__line:nth-child(3) {
     bottom: 13px;
   }
+
+  .header__btn {
+    margin-right: 7px;
+    padding: 10px 21px;
+  }
+
+  .hero__content{
+    width: 75px;
+  }
+
+  .services-list{
+    offset: 2;
+  }
+
+  .clients-list {
+    --offset: 1;
+  }
+
+  .footer-container{
+    flex-direction: column;
+  }
+
+  .footer-left (
+    margin-bottom: var(--gap);
+  )
 }
+
+
 
 
 

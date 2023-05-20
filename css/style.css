@@ -278,6 +278,13 @@ body {
   text-align: center;
 }
 
+.services-list{
+  /* количество отступов между карточками на десктопе*/
+  --offset: 3;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
 .services-item {
   flex-direction: column;
   align-items: center;
@@ -285,6 +292,7 @@ body {
   width: 270px;
   border: 1px solid #e4e4e4;
   border-radius: 5px;
+  width: calc((100% - (var(--offsets) * var(--gap)))  / (var(--offsets) + 1 ));
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
@@ -352,16 +360,16 @@ body {
 
 }
 
-.articles-item:not(:nth-child(2n)) {
-  margin-right: 30px;
+.articles-item {
+  width: calc((100% - (var(--offset) * var(--gap)))  /  (var(--offset) + 1));
 }
+
 
 .blog-preview {
   overflow: hidden;
   border-radius: 5px;
   border: 1px solid #e4e4e4;
-
-
+  height: 100px;
 }
 
 .blog-preview-image {
