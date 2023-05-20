@@ -68,8 +68,23 @@
     margin-bottom: var(--gap);
   )
 }
+/* для 576px*/
+@media (max-width:768px) {
+  .services-list {
+     --offset:1;
+  }
 
+  .blog-preview-link {
+    flex-direction: column;
+  }
 
+  .form {
+    padding: 0;
+  }
+    .footer__nav .nav__item:not(:last-child){
+      margin-right: 18px;
+    }
+}
 
 
 
