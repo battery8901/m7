@@ -5,7 +5,7 @@
   }
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
   .header__nav {
     display: none;
   }
@@ -69,7 +69,7 @@
   )
 }
 /* для 576px*/
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .services-list {
      --offset:1;
   }
@@ -86,6 +86,20 @@
     }
 }
 
+
+@media (max-width: 576px) {
+  .clients-list {
+    --offsets: 0;
+  }
+
+  .contacts-list {
+    --offsets:0;
+  }
+
+  .footer-right {
+    flex-direction: column;
+  }
+}
 
 
 
